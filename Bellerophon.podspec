@@ -30,5 +30,5 @@ This is a kill switch
   s.swift_version = "5.0"
   s.requires_arc = true
 
-  s.source_files = 'Bellerophon/Bellerophon/Sources/**/*.{swift}'
+  s.source_files = 'Sources/Bellerophon/**/*.{swift}'
 end

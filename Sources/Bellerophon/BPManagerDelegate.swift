@@ -7,7 +7,7 @@
 //
 
 /// The Bellerophon manager delegate.
-public protocol BellerophonManagerDelegate: class {
+public protocol BellerophonManagerDelegate: AnyObject {
 
     // MARK: - Required
     /**
