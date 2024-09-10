@@ -5,6 +5,8 @@
 //  Created by Satinder Singh on 11/17/17.
 //
 
+import UIKit
+
 /// Different types of events for Bellerophon
 public enum BellerophonEvent {
 
