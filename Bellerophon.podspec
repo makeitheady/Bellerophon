@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "Bellerophon"
-  s.version          = "1.2.2"
+  s.version          = "1.2.3"
   s.summary          = "Kill Switch"
 
 # This description is used to generate tags and improve search results.
@@ -20,13 +20,14 @@ Pod::Spec.new do |s|
 This is a kill switch
                        DESC
 
-  s.homepage         = "https://github.com/prolificinteractive/Bellerophon"
+  s.homepage         = "https://github.com/makeitheady/Bellerophon"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { "Thibault Klein" => "thibault@prolificinteractive.com" }
-  s.source           = { :git => "https://github.com/prolificinteractive/Bellerophon.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/makeitheady/Bellerophon.git", :branch => "chore/swift-package" }
 
-  s.platform     = :ios, '9.0'
+  s.platform     = :ios, '12.0'
+  s.swift_version = "5.0"
   s.requires_arc = true
 
   s.source_files = 'Bellerophon/Bellerophon/Sources/**/*.{swift}'
